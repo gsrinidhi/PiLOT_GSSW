@@ -1,0 +1,19 @@
+2022/10/11 21:44:52.092  INFO: COSMOS Version: 4.5.2
+2022/10/11 21:44:52.092  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/Basic/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2022/10/11 21:44:52.117  INFO: Marshal load success: C:/COSMOS/Basic/outputs/tmp/marshal_467ddb339dc4b0776bc261b9071ece16.bin
+2022/10/11 21:44:52.323  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2022/10/11 21:44:52.323  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2022/10/11 21:44:52.332  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2022/10/11 21:44:52.332  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2022/10/11 21:44:52.333  INFO: PREIDENTIFIED_ROUTER Connection Success
+2022/10/11 21:44:52.333  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2022/10/11 21:44:52.333  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2022/10/11 21:44:52.336  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2022/10/11 21:45:08.334  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2022/10/11 21:45:08.334  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2022/10/11 21:45:08.334  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2022/10/11 21:45:08.365  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2022/10/11 21:45:08.366  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2022/10/11 21:45:08.366  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2022/10/11 21:45:08.370  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2022/10/11 21:45:08.467  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER

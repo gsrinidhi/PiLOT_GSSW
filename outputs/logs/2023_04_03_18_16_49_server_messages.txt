@@ -1,0 +1,698 @@
+2023/04/03 18:16:48.237  INFO: COSMOS Version: 4.5.2
+2023/04/03 18:16:48.237  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/Basic/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2023/04/03 18:16:48.272  INFO: Marshal load success: C:/COSMOS/Basic/outputs/tmp/marshal_4df8a7e39ee3db7435f56b96855c7be2.bin
+2023/04/03 18:16:48.272  WARN: PILOT_TCP PAYLOAD SIDE_PLATES redefined.
+2023/04/03 18:16:48.272  WARN: Read Conversion UnixTimeConversion on item HK_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/04/03 18:16:48.272  WARN: Read Conversion UnixTimeConversion on item ARIS_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/04/03 18:16:48.272  WARN: Read Conversion UnixTimeConversion on item PAYLOAD_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/04/03 18:16:48.272  WARN: Read Conversion UnixTimeConversion on item LOGS_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/04/03 18:16:48.501  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2023/04/03 18:16:48.501  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2023/04/03 18:16:48.502  INFO: Creating thread for interface PILOT_TCP_INT
+2023/04/03 18:16:48.503  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2023/04/03 18:16:48.503  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2023/04/03 18:16:48.503  INFO: PREIDENTIFIED_ROUTER Connection Success
+2023/04/03 18:16:48.503  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2023/04/03 18:16:48.503  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2023/04/03 18:16:48.507  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2023/04/03 18:16:48.507  INFO: Starting packet reading for PILOT_TCP_INT
+2023/04/03 18:16:48.507  INFO: Connecting to PILOT_TCP_INT...
+2023/04/03 18:16:48.507  INFO: PILOT_TCP_INT Connection Success
+2023/04/03 18:19:09.303  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):58990
+2023/04/03 18:19:15.297  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):58992
+2023/04/03 18:19:19.797  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):58996
+2023/04/03 18:19:19.798  ERROR: StreamInterface: Sync found. Discarding 3542 bytes of data.
+2023/04/03 18:19:19.798  ERROR: Starting: 0x00 0x00 0x00 0x00 0x00 0x00
+2023/04/03 18:19:19.798  ERROR: StreamInterface: Sync found. Discarding 388 bytes of data.
+2023/04/03 18:19:19.798  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.798  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.798  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.798  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.798  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.798  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.799  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.799  ERROR: StreamInterface: Sync found. Discarding 58 bytes of data.
+2023/04/03 18:19:19.799  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.799  ERROR: StreamInterface: Sync found. Discarding 41 bytes of data.
+2023/04/03 18:19:19.799  ERROR: Starting: 0xC1 0x15 0x00 0x76 0x88 0x29
+2023/04/03 18:19:19.799  ERROR: StreamInterface: Sync found. Discarding 183 bytes of data.
+2023/04/03 18:19:19.799  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.799  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.799  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.800  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.800  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.800  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.800  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.800  ERROR: StreamInterface: Sync found. Discarding 40 bytes of data.
+2023/04/03 18:19:19.800  ERROR: Starting: 0xD9 0xF0 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.800  ERROR: StreamInterface: Sync found. Discarding 126 bytes of data.
+2023/04/03 18:19:19.800  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.801  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.801  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.801  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.801  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.801  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.801  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.801  ERROR: StreamInterface: Sync found. Discarding 55 bytes of data.
+2023/04/03 18:19:19.801  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.801  ERROR: StreamInterface: Sync found. Discarding 44 bytes of data.
+2023/04/03 18:19:19.801  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.802  ERROR: StreamInterface: Sync found. Discarding 183 bytes of data.
+2023/04/03 18:19:19.802  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.802  ERROR: StreamInterface: Sync found. Discarding 186 bytes of data.
+2023/04/03 18:19:19.802  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.802  ERROR: StreamInterface: Sync found. Discarding 67 bytes of data.
+2023/04/03 18:19:19.802  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.802  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.802  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.803  ERROR: StreamInterface: Sync found. Discarding 40 bytes of data.
+2023/04/03 18:19:19.803  ERROR: Starting: 0x00 0x00 0x00 0x00 0x00 0x00
+2023/04/03 18:19:19.803  ERROR: StreamInterface: Sync found. Discarding 58 bytes of data.
+2023/04/03 18:19:19.803  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.803  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.803  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.803  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.803  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.803  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.803  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.803  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.803  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.804  ERROR: StreamInterface: Sync found. Discarding 41 bytes of data.
+2023/04/03 18:19:19.804  ERROR: Starting: 0x00 0x00 0x00 0x00 0x00 0x00
+2023/04/03 18:19:19.804  ERROR: StreamInterface: Sync found. Discarding 58 bytes of data.
+2023/04/03 18:19:19.804  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.804  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.804  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.805  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.805  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.805  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.805  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.805  ERROR: StreamInterface: Sync found. Discarding 11 bytes of data.
+2023/04/03 18:19:19.805  ERROR: Starting: 0x05 0x00 0x02 0x00 0x00 0x00
+2023/04/03 18:19:19.805  ERROR: StreamInterface: Sync found. Discarding 17 bytes of data.
+2023/04/03 18:19:19.805  ERROR: Starting: 0x7B 0x18 0x1A 0x00 0x01 0x00
+2023/04/03 18:19:19.805  ERROR: StreamInterface: Sync found. Discarding 82 bytes of data.
+2023/04/03 18:19:19.805  ERROR: Starting: 0x2B 0x00 0x00 0x00 0x00 0x00
+2023/04/03 18:19:19.805  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.805  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.806  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.806  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.806  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.806  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.806  ERROR: StreamInterface: Sync found. Discarding 67 bytes of data.
+2023/04/03 18:19:19.806  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.806  ERROR: StreamInterface: Sync found. Discarding 40 bytes of data.
+2023/04/03 18:19:19.806  ERROR: Starting: 0x00 0x00 0x00 0x00 0x00 0xAF
+2023/04/03 18:19:19.807  ERROR: StreamInterface: Sync found. Discarding 58 bytes of data.
+2023/04/03 18:19:19.807  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.807  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.807  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.807  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.807  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.807  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.807  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.807  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.807  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.807  ERROR: StreamInterface: Sync found. Discarding 41 bytes of data.
+2023/04/03 18:19:19.807  ERROR: Starting: 0x05 0x00 0x04 0x00 0x00 0x00
+2023/04/03 18:19:19.808  ERROR: StreamInterface: Sync found. Discarding 58 bytes of data.
+2023/04/03 18:19:19.808  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.808  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.808  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.808  ERROR: StreamInterface: Sync found. Discarding 68 bytes of data.
+2023/04/03 18:19:19.808  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.808  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.808  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.809  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.809  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.809  ERROR: StreamInterface: Sync found. Discarding 39 bytes of data.
+2023/04/03 18:19:19.809  ERROR: Starting: 0x05 0x00 0x00 0x00 0xA3 0x32
+2023/04/03 18:19:19.809  ERROR: StreamInterface: Sync found. Discarding 60 bytes of data.
+2023/04/03 18:19:19.809  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.809  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.809  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.809  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.809  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.810  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.810  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.810  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.810  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.810  ERROR: StreamInterface: Sync found. Discarding 41 bytes of data.
+2023/04/03 18:19:19.810  ERROR: Starting: 0x05 0x00 0x00 0x00 0x00 0x00
+2023/04/03 18:19:19.811  ERROR: StreamInterface: Sync found. Discarding 1 bytes of data.
+2023/04/03 18:19:19.811  ERROR: Starting: 0x1E 0x08 0x0A 0xC0 0x0A 0x00
+2023/04/03 18:19:19.812  ERROR: StreamInterface: Sync found. Discarding 57 bytes of data.
+2023/04/03 18:19:19.812  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.812  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.812  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.812  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.812  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.812  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.812  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.813  ERROR: StreamInterface: Sync found. Discarding 9 bytes of data.
+2023/04/03 18:19:19.813  ERROR: Starting: 0x00 0x00 0x00 0x00 0x90 0x8D
+2023/04/03 18:19:19.813  ERROR: StreamInterface: Sync found. Discarding 149 bytes of data.
+2023/04/03 18:19:19.813  ERROR: Starting: 0x7B 0x18 0x1A 0x00 0x01 0x00
+2023/04/03 18:19:19.813  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.813  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.813  ERROR: StreamInterface: Sync found. Discarding 418 bytes of data.
+2023/04/03 18:19:19.813  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.813  ERROR: StreamInterface: Sync found. Discarding 145 bytes of data.
+2023/04/03 18:19:19.813  ERROR: Starting: 0xFF 0xFF 0x04 0x00 0x86 0x78
+2023/04/03 18:19:19.814  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.814  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.814  ERROR: StreamInterface: Sync found. Discarding 40 bytes of data.
+2023/04/03 18:19:19.814  ERROR: Starting: 0x00 0x07 0x00 0x00 0x00 0x48
+2023/04/03 18:19:19.814  ERROR: StreamInterface: Sync found. Discarding 58 bytes of data.
+2023/04/03 18:19:19.814  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.814  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.814  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.814  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.814  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.814  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.814  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.814  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.814  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.814  ERROR: StreamInterface: Sync found. Discarding 40 bytes of data.
+2023/04/03 18:19:19.814  ERROR: Starting: 0x00 0x03 0x00 0x00 0x00 0x20
+2023/04/03 18:19:19.814  ERROR: StreamInterface: Sync found. Discarding 58 bytes of data.
+2023/04/03 18:19:19.814  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.815  ERROR: StreamInterface: Sync found. Discarding 68 bytes of data.
+2023/04/03 18:19:19.815  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.815  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.815  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.815  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.815  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.815  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.815  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.815  ERROR: StreamInterface: Sync found. Discarding 39 bytes of data.
+2023/04/03 18:19:19.815  ERROR: Starting: 0x01 0x00 0x00 0x00 0xF3 0x96
+2023/04/03 18:19:19.815  ERROR: StreamInterface: Sync found. Discarding 59 bytes of data.
+2023/04/03 18:19:19.815  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.815  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.815  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.815  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.815  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.816  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.816  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.816  ERROR: StreamInterface: Sync found. Discarding 186 bytes of data.
+2023/04/03 18:19:19.816  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.816  ERROR: StreamInterface: Sync found. Discarding 5 bytes of data.
+2023/04/03 18:19:19.816  ERROR: Starting: 0x68 0x0E 0xAC 0x0F 0xDE 0x08
+2023/04/03 18:19:19.816  ERROR: StreamInterface: Sync found. Discarding 103 bytes of data.
+2023/04/03 18:19:19.816  ERROR: Starting: 0x4D 0x06 0xD7 0x5D 0x60 0xFF
+2023/04/03 18:19:19.816  ERROR: StreamInterface: Sync found. Discarding 78 bytes of data.
+2023/04/03 18:19:19.816  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.816  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.816  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.816  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.816  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.817  ERROR: StreamInterface: Sync found. Discarding 295 bytes of data.
+2023/04/03 18:19:19.817  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.817  ERROR: StreamInterface: Sync found. Discarding 95 bytes of data.
+2023/04/03 18:19:19.817  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.817  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.817  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.817  ERROR: StreamInterface: Sync found. Discarding 69 bytes of data.
+2023/04/03 18:19:19.817  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.817  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.817  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.817  ERROR: StreamInterface: Sync found. Discarding 167 bytes of data.
+2023/04/03 18:19:19.817  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.818  ERROR: StreamInterface: Sync found. Discarding 1 bytes of data.
+2023/04/03 18:19:19.818  ERROR: Starting: 0x1C 0x08 0x32 0xC0 0x54 0x00
+2023/04/03 18:19:19.818  ERROR: StreamInterface: Sync found. Discarding 115 bytes of data.
+2023/04/03 18:19:19.818  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.818  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.818  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.818  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.818  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.818  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.818  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.819  ERROR: StreamInterface: Sync found. Discarding 144 bytes of data.
+2023/04/03 18:19:19.819  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.819  ERROR: StreamInterface: Sync found. Discarding 1 bytes of data.
+2023/04/03 18:19:19.819  ERROR: Starting: 0x3F 0x08 0x32 0xC0 0x59 0x00
+2023/04/03 18:19:19.819  ERROR: StreamInterface: Sync found. Discarding 22 bytes of data.
+2023/04/03 18:19:19.819  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.820  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.820  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.820  ERROR: StreamInterface: Sync found. Discarding 183 bytes of data.
+2023/04/03 18:19:19.820  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.820  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.820  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.820  ERROR: StreamInterface: Sync found. Discarding 230 bytes of data.
+2023/04/03 18:19:19.820  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.820  ERROR: StreamInterface: Sync found. Discarding 160 bytes of data.
+2023/04/03 18:19:19.820  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.820  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.820  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.821  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.821  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.821  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.821  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.821  ERROR: StreamInterface: Sync found. Discarding 40 bytes of data.
+2023/04/03 18:19:19.821  ERROR: Starting: 0x63 0x1A 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.821  ERROR: StreamInterface: Sync found. Discarding 58 bytes of data.
+2023/04/03 18:19:19.821  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.821  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.821  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.821  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.821  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.821  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.821  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.822  ERROR: StreamInterface: Sync found. Discarding 41 bytes of data.
+2023/04/03 18:19:19.822  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.822  ERROR: StreamInterface: Sync found. Discarding 58 bytes of data.
+2023/04/03 18:19:19.822  ERROR: Starting: 0x15 0x00 0x76 0x88 0x29 0x00
+2023/04/03 18:19:19.822  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.822  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.822  ERROR: StreamInterface: Sync found. Discarding 67 bytes of data.
+2023/04/03 18:19:19.822  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.822  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.822  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.822  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.822  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.822  ERROR: StreamInterface: Sync found. Discarding 60 bytes of data.
+2023/04/03 18:19:19.822  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.823  ERROR: StreamInterface: Sync found. Discarding 38 bytes of data.
+2023/04/03 18:19:19.823  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.823  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.823  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.823  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.823  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.823  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.823  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.823  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.823  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.823  ERROR: StreamInterface: Sync found. Discarding 39 bytes of data.
+2023/04/03 18:19:19.823  ERROR: Starting: 0x00 0x00 0x00 0x00 0x00 0x00
+2023/04/03 18:19:19.824  ERROR: StreamInterface: Sync found. Discarding 128 bytes of data.
+2023/04/03 18:19:19.824  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.824  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.824  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.824  ERROR: StreamInterface: Sync found. Discarding 183 bytes of data.
+2023/04/03 18:19:19.824  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.824  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.824  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.824  ERROR: StreamInterface: Sync found. Discarding 42 bytes of data.
+2023/04/03 18:19:19.824  ERROR: Starting: 0x00 0x00 0x00 0x00 0x00 0x00
+2023/04/03 18:19:19.824  ERROR: StreamInterface: Sync found. Discarding 57 bytes of data.
+2023/04/03 18:19:19.824  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.824  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.824  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.825  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.825  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.825  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.825  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.825  ERROR: StreamInterface: Sync found. Discarding 68 bytes of data.
+2023/04/03 18:19:19.825  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.825  ERROR: StreamInterface: Sync found. Discarding 39 bytes of data.
+2023/04/03 18:19:19.825  ERROR: Starting: 0x04 0x00 0x00 0x00 0xD2 0xD0
+2023/04/03 18:19:19.826  ERROR: StreamInterface: Sync found. Discarding 177 bytes of data.
+2023/04/03 18:19:19.826  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.826  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.826  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.826  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.826  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.826  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.826  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.826  ERROR: StreamInterface: Sync found. Discarding 40 bytes of data.
+2023/04/03 18:19:19.826  ERROR: Starting: 0x00 0x01 0x00 0x00 0x00 0x6C
+2023/04/03 18:19:19.826  ERROR: StreamInterface: Sync found. Discarding 60 bytes of data.
+2023/04/03 18:19:19.826  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.826  ERROR: StreamInterface: Sync found. Discarding 68 bytes of data.
+2023/04/03 18:19:19.826  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.826  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.826  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.826  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.826  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.827  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.827  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.828  ERROR: StreamInterface: Sync found. Discarding 39 bytes of data.
+2023/04/03 18:19:19.828  ERROR: Starting: 0x01 0x00 0x00 0x00 0x03 0x38
+2023/04/03 18:19:19.828  ERROR: StreamInterface: Sync found. Discarding 61 bytes of data.
+2023/04/03 18:19:19.828  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.828  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.828  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.828  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.828  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.828  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.828  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.828  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.828  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.828  ERROR: StreamInterface: Sync found. Discarding 42 bytes of data.
+2023/04/03 18:19:19.828  ERROR: Starting: 0x07 0x02 0x00 0x00 0x00 0x00
+2023/04/03 18:19:19.828  ERROR: StreamInterface: Sync found. Discarding 1 bytes of data.
+2023/04/03 18:19:19.828  ERROR: Starting: 0x8A 0x08 0x32 0xC0 0x8B 0x00
+2023/04/03 18:19:19.828  ERROR: StreamInterface: Sync found. Discarding 124 bytes of data.
+2023/04/03 18:19:19.828  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.828  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.828  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.829  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.829  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.829  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.829  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.829  ERROR: StreamInterface: Sync found. Discarding 40 bytes of data.
+2023/04/03 18:19:19.829  ERROR: Starting: 0x00 0x01 0x00 0x00 0x00 0x54
+2023/04/03 18:19:19.829  ERROR: StreamInterface: Sync not found. Discarding 9 bytes of data.
+2023/04/03 18:19:19.829  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.829  ERROR: StreamInterface: Sync found. Discarding 50 bytes of data.
+2023/04/03 18:19:19.829  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.829  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.829  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.830  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.830  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.830  ERROR: StreamInterface: Sync found. Discarding 68 bytes of data.
+2023/04/03 18:19:19.830  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.831  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.831  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.831  ERROR: StreamInterface: Sync found. Discarding 39 bytes of data.
+2023/04/03 18:19:19.831  ERROR: Starting: 0x00 0x00 0x00 0x00 0x2A 0x24
+2023/04/03 18:19:19.831  ERROR: StreamInterface: Sync found. Discarding 1 bytes of data.
+2023/04/03 18:19:19.831  ERROR: Starting: 0xCF 0x08 0x32 0xC0 0x95 0x00
+2023/04/03 18:19:19.832  ERROR: StreamInterface: Sync found. Discarding 175 bytes of data.
+2023/04/03 18:19:19.832  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.832  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.832  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.832  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.832  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.832  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.832  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.832  ERROR: StreamInterface: Sync found. Discarding 6 bytes of data.
+2023/04/03 18:19:19.832  ERROR: Starting: 0x00 0x00 0x00 0x00 0x4C 0xCF
+2023/04/03 18:19:19.833  ERROR: StreamInterface: Sync found. Discarding 92 bytes of data.
+2023/04/03 18:19:19.833  ERROR: Starting: 0x06 0xCE 0x04 0x7B 0x98 0xA8
+2023/04/03 18:19:19.833  ERROR: StreamInterface: Sync found. Discarding 128 bytes of data.
+2023/04/03 18:19:19.833  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.833  ERROR: StreamInterface: Sync found. Discarding 186 bytes of data.
+2023/04/03 18:19:19.833  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.834  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.834  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.834  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.834  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.834  ERROR: StreamInterface: Sync found. Discarding 22 bytes of data.
+2023/04/03 18:19:19.834  ERROR: Starting: 0x07 0x00 0x01 0x00 0x00 0x00
+2023/04/03 18:19:19.834  ERROR: StreamInterface: Sync found. Discarding 136 bytes of data.
+2023/04/03 18:19:19.834  ERROR: Starting: 0x01 0xA8 0x01 0xA8 0xB8 0x0C
+2023/04/03 18:19:19.834  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.834  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.835  ERROR: StreamInterface: Sync found. Discarding 186 bytes of data.
+2023/04/03 18:19:19.835  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.835  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.835  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.835  ERROR: StreamInterface: Sync found. Discarding 69 bytes of data.
+2023/04/03 18:19:19.835  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.836  ERROR: StreamInterface: Sync found. Discarding 40 bytes of data.
+2023/04/03 18:19:19.836  ERROR: Starting: 0x00 0x00 0x00 0x00 0x00 0x9A
+2023/04/03 18:19:19.836  ERROR: StreamInterface: Sync found. Discarding 59 bytes of data.
+2023/04/03 18:19:19.836  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.836  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.836  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.837  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.837  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.837  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.837  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.837  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.837  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.838  ERROR: StreamInterface: Sync found. Discarding 40 bytes of data.
+2023/04/03 18:19:19.838  ERROR: Starting: 0x00 0x00 0x00 0x00 0x00 0xC8
+2023/04/03 18:19:19.838  ERROR: StreamInterface: Sync found. Discarding 59 bytes of data.
+2023/04/03 18:19:19.838  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.838  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.838  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.838  ERROR: StreamInterface: Sync found. Discarding 69 bytes of data.
+2023/04/03 18:19:19.838  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.839  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.839  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.839  ERROR: StreamInterface: Sync found. Discarding 164 bytes of data.
+2023/04/03 18:19:19.839  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.839  ERROR: StreamInterface: Sync found. Discarding 4 bytes of data.
+2023/04/03 18:19:19.839  ERROR: Starting: 0x0E 0xA3 0x0F 0xDF 0x08 0x53
+2023/04/03 18:19:19.839  ERROR: StreamInterface: Sync found. Discarding 94 bytes of data.
+2023/04/03 18:19:19.839  ERROR: Starting: 0x5E 0xAC 0x00 0x2C 0x00 0x7B
+2023/04/03 18:19:19.840  ERROR: StreamInterface: Sync found. Discarding 12 bytes of data.
+2023/04/03 18:19:19.840  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.841  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.841  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.841  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.841  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.841  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.841  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.841  ERROR: StreamInterface: Sync found. Discarding 187 bytes of data.
+2023/04/03 18:19:19.841  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.842  ERROR: StreamInterface: Sync found. Discarding 59 bytes of data.
+2023/04/03 18:19:19.842  ERROR: Starting: 0x00 0x0A 0x00 0x00 0x00 0xEE
+2023/04/03 18:19:19.842  ERROR: StreamInterface: Sync found. Discarding 1 bytes of data.
+2023/04/03 18:19:19.842  ERROR: Starting: 0xD2 0x08 0x32 0xC0 0xB3 0x00
+2023/04/03 18:19:19.843  ERROR: StreamInterface: Sync found. Discarding 164 bytes of data.
+2023/04/03 18:19:19.843  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.843  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.843  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.844  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.844  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.844  ERROR: StreamInterface: Sync found. Discarding 273 bytes of data.
+2023/04/03 18:19:19.844  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.844  ERROR: StreamInterface: Sync found. Discarding 118 bytes of data.
+2023/04/03 18:19:19.844  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.844  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.844  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.845  ERROR: StreamInterface: Sync found. Discarding 186 bytes of data.
+2023/04/03 18:19:19.845  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.845  ERROR: StreamInterface: Sync found. Discarding 67 bytes of data.
+2023/04/03 18:19:19.845  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.845  ERROR: StreamInterface: Sync found. Discarding 145 bytes of data.
+2023/04/03 18:19:19.845  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.845  ERROR: StreamInterface: Sync found. Discarding 1 bytes of data.
+2023/04/03 18:19:19.845  ERROR: Starting: 0x77 0x08 0x32 0xC0 0xBC 0x00
+2023/04/03 18:19:19.845  ERROR: StreamInterface: Sync found. Discarding 138 bytes of data.
+2023/04/03 18:19:19.845  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.846  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.846  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.850  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.850  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.850  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.850  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.850  ERROR: StreamInterface: Sync found. Discarding 230 bytes of data.
+2023/04/03 18:19:19.850  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.850  ERROR: StreamInterface: Sync found. Discarding 161 bytes of data.
+2023/04/03 18:19:19.850  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.851  ERROR: StreamInterface: Sync found. Discarding 69 bytes of data.
+2023/04/03 18:19:19.851  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.851  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.851  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.851  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.851  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.851  ERROR: StreamInterface: Sync found. Discarding 58 bytes of data.
+2023/04/03 18:19:19.851  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.852  ERROR: StreamInterface: Sync found. Discarding 5 bytes of data.
+2023/04/03 18:19:19.852  ERROR: Starting: 0x65 0x0E 0xAB 0x0F 0xDD 0x08
+2023/04/03 18:19:19.852  ERROR: StreamInterface: Sync found. Discarding 94 bytes of data.
+2023/04/03 18:19:19.852  ERROR: Starting: 0x23 0x5E 0x07 0xDC 0x06 0x7B
+2023/04/03 18:19:19.852  ERROR: StreamInterface: Sync found. Discarding 119 bytes of data.
+2023/04/03 18:19:19.852  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.852  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.852  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.853  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.853  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.853  ERROR: StreamInterface: Sync found. Discarding 239 bytes of data.
+2023/04/03 18:19:19.853  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.853  ERROR: StreamInterface: Sync found. Discarding 66 bytes of data.
+2023/04/03 18:19:19.853  ERROR: Starting: 0x04 0x00 0x00 0x00 0x00 0x00
+2023/04/03 18:19:19.853  ERROR: StreamInterface: Sync found. Discarding 9 bytes of data.
+2023/04/03 18:19:19.853  ERROR: Starting: 0x00 0x00 0x14 0x45 0xE5 0x18
+2023/04/03 18:19:19.853  ERROR: StreamInterface: Sync found. Discarding 125 bytes of data.
+2023/04/03 18:19:19.853  ERROR: Starting: 0xFF 0x04 0x00 0x45 0x4B 0xD0
+2023/04/03 18:19:19.853  ERROR: StreamInterface: Sync found. Discarding 128 bytes of data.
+2023/04/03 18:19:19.853  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.854  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.854  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.854  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.854  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.854  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.854  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.854  ERROR: StreamInterface: Sync found. Discarding 207 bytes of data.
+2023/04/03 18:19:19.854  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.854  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.854  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.854  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.854  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.855  ERROR: StreamInterface: Sync found. Discarding 68 bytes of data.
+2023/04/03 18:19:19.855  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.855  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.855  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.855  ERROR: StreamInterface: Sync found. Discarding 40 bytes of data.
+2023/04/03 18:19:19.855  ERROR: Starting: 0x00 0x00 0x00 0x00 0x00 0x00
+2023/04/03 18:19:19.856  ERROR: StreamInterface: Sync found. Discarding 59 bytes of data.
+2023/04/03 18:19:19.856  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.856  ERROR: StreamInterface: Sync found. Discarding 186 bytes of data.
+2023/04/03 18:19:19.856  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.856  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.856  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.856  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.856  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.856  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.856  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.857  ERROR: StreamInterface: Sync found. Discarding 32 bytes of data.
+2023/04/03 18:19:19.857  ERROR: Starting: 0x00 0x00 0x00 0x00 0x00 0x00
+2023/04/03 18:19:19.857  ERROR: StreamInterface: Sync found. Discarding 126 bytes of data.
+2023/04/03 18:19:19.857  ERROR: Starting: 0x03 0x78 0x12 0x38 0x03 0x0A
+2023/04/03 18:19:19.857  ERROR: StreamInterface: Sync found. Discarding 69 bytes of data.
+2023/04/03 18:19:19.857  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.857  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.857  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.857  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.858  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.858  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.858  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.858  ERROR: StreamInterface: Sync found. Discarding 40 bytes of data.
+2023/04/03 18:19:19.858  ERROR: Starting: 0x00 0x00 0x00 0x00 0x00 0xF5
+2023/04/03 18:19:19.863  ERROR: StreamInterface: Sync found. Discarding 176 bytes of data.
+2023/04/03 18:19:19.863  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.863  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.864  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.864  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.864  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.864  ERROR: StreamInterface: Sync found. Discarding 70 bytes of data.
+2023/04/03 18:19:19.864  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.864  ERROR: StreamInterface: Sync found. Discarding 1 bytes of data.
+2023/04/03 18:19:19.864  ERROR: Starting: 0x07 0x08 0x00 0x07 0x00 0x00
+2023/04/03 18:19:19.864  ERROR: StreamInterface: Sync found. Discarding 156 bytes of data.
+2023/04/03 18:19:19.864  ERROR: Starting: 0xFF 0xFF 0xFF 0x09 0x35 0x9A
+2023/04/03 18:19:19.864  ERROR: StreamInterface: Sync found. Discarding 186 bytes of data.
+2023/04/03 18:19:19.864  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.864  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.865  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.865  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.865  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.865  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.865  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.865  ERROR: StreamInterface: Sync found. Discarding 41 bytes of data.
+2023/04/03 18:19:19.865  ERROR: Starting: 0x0A 0x00 0x03 0x00 0x00 0x00
+2023/04/03 18:19:19.865  ERROR: StreamInterface: Sync found. Discarding 59 bytes of data.
+2023/04/03 18:19:19.865  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.865  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.865  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.865  ERROR: StreamInterface: Sync found. Discarding 69 bytes of data.
+2023/04/03 18:19:19.865  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.866  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.866  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.866  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.866  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.866  ERROR: StreamInterface: Sync found. Discarding 41 bytes of data.
+2023/04/03 18:19:19.866  ERROR: Starting: 0x04 0x00 0x03 0x00 0x00 0x00
+2023/04/03 18:19:19.866  ERROR: StreamInterface: Sync found. Discarding 58 bytes of data.
+2023/04/03 18:19:19.866  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.866  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.866  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.866  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.866  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.866  ERROR: StreamInterface: Sync found. Discarding 186 bytes of data.
+2023/04/03 18:19:19.866  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.867  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.867  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.867  ERROR: StreamInterface: Sync found. Discarding 39 bytes of data.
+2023/04/03 18:19:19.867  ERROR: Starting: 0x02 0x00 0x00 0x00 0xD2 0x25
+2023/04/03 18:19:19.867  ERROR: StreamInterface: Sync found. Discarding 129 bytes of data.
+2023/04/03 18:19:19.867  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.867  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.867  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.867  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.867  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.867  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.867  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.867  ERROR: StreamInterface: Sync found. Discarding 39 bytes of data.
+2023/04/03 18:19:19.867  ERROR: Starting: 0x00 0x00 0x00 0x00 0x1B 0xD2
+2023/04/03 18:19:19.868  ERROR: StreamInterface: Sync found. Discarding 1 bytes of data.
+2023/04/03 18:19:19.868  ERROR: Starting: 0x01 0x08 0x32 0xC0 0xF8 0x00
+2023/04/03 18:19:19.868  ERROR: StreamInterface: Sync found. Discarding 176 bytes of data.
+2023/04/03 18:19:19.868  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.868  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.868  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.868  ERROR: StreamInterface: Sync found. Discarding 69 bytes of data.
+2023/04/03 18:19:19.868  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.868  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.868  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.868  ERROR: StreamInterface: Sync found. Discarding 39 bytes of data.
+2023/04/03 18:19:19.868  ERROR: Starting: 0x01 0x00 0x00 0x00 0x8E 0x7B
+2023/04/03 18:19:19.868  ERROR: StreamInterface: Sync found. Discarding 59 bytes of data.
+2023/04/03 18:19:19.868  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.868  ERROR: StreamInterface: Sync found. Discarding 186 bytes of data.
+2023/04/03 18:19:19.868  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.868  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.869  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.869  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.869  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.869  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.869  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.869  ERROR: StreamInterface: Sync found. Discarding 41 bytes of data.
+2023/04/03 18:19:19.869  ERROR: Starting: 0x04 0x00 0x00 0x00 0x00 0x00
+2023/04/03 18:19:19.869  ERROR: StreamInterface: Sync found. Discarding 58 bytes of data.
+2023/04/03 18:19:19.869  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.869  ERROR: StreamInterface: Sync found. Discarding 69 bytes of data.
+2023/04/03 18:19:19.869  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.869  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.869  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.869  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.869  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.869  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.869  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.869  ERROR: StreamInterface: Sync found. Discarding 39 bytes of data.
+2023/04/03 18:19:19.869  ERROR: Starting: 0x00 0x00 0x00 0x00 0x5B 0xD2
+2023/04/03 18:19:19.869  ERROR: StreamInterface: Sync found. Discarding 61 bytes of data.
+2023/04/03 18:19:19.869  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.869  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.869  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.869  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.869  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.869  ERROR: StreamInterface: Sync found. Discarding 184 bytes of data.
+2023/04/03 18:19:19.869  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.870  ERROR: StreamInterface: Sync found. Discarding 458 bytes of data.
+2023/04/03 18:19:19.870  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.870  ERROR: StreamInterface: Sync found. Discarding 76 bytes of data.
+2023/04/03 18:19:19.870  ERROR: Starting: 0xFF 0xFF 0x04 0x00 0x58 0xFE
+2023/04/03 18:19:19.870  ERROR: StreamInterface: Sync found. Discarding 129 bytes of data.
+2023/04/03 18:19:19.870  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.870  ERROR: StreamInterface: Sync found. Discarding 186 bytes of data.
+2023/04/03 18:19:19.870  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.870  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.870  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.870  ERROR: StreamInterface: Sync found. Discarding 163 bytes of data.
+2023/04/03 18:19:19.870  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.870  ERROR: StreamInterface: Sync found. Discarding 4 bytes of data.
+2023/04/03 18:19:19.870  ERROR: Starting: 0x0E 0xAD 0x0F 0xDC 0x08 0x54
+2023/04/03 18:19:19.870  ERROR: StreamInterface: Sync found. Discarding 94 bytes of data.
+2023/04/03 18:19:19.870  ERROR: Starting: 0x70 0x90 0x01 0x10 0x01 0x7B
+2023/04/03 18:19:19.870  ERROR: StreamInterface: Sync found. Discarding 13 bytes of data.
+2023/04/03 18:19:19.870  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.870  ERROR: StreamInterface: Sync found. Discarding 186 bytes of data.
+2023/04/03 18:19:19.870  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.871  ERROR: StreamInterface: Sync found. Discarding 68 bytes of data.
+2023/04/03 18:19:19.871  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.871  ERROR: StreamInterface: Sync found. Discarding 185 bytes of data.
+2023/04/03 18:19:19.871  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.871  ERROR: StreamInterface: Sync found. Discarding 186 bytes of data.
+2023/04/03 18:19:19.871  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.871  ERROR: StreamInterface: Sync found. Discarding 98 bytes of data.
+2023/04/03 18:19:19.871  ERROR: Starting: 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+2023/04/03 18:19:19.871  INFO: Log File Opened : C:/COSMOS/Basic/outputs/logs/2023_04_03_18_19_19_tlm.bin
+2023/04/03 18:19:19.872  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):58996
+2023/04/03 18:19:20.004  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):58996
+2023/04/03 18:19:27.032  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):58990
+2023/04/03 18:19:27.113  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):58990
+2023/04/03 18:19:31.650  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):58992
+2023/04/03 18:19:31.666  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):58992
+2023/04/03 18:19:40.647  INFO: Log File Closed : C:/COSMOS/Basic/outputs/logs/2023_04_03_18_19_19_tlm.bin
+2023/04/03 18:19:40.863  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2023/04/03 18:19:40.863  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2023/04/03 18:19:40.863  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2023/04/03 18:19:40.958  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2023/04/03 18:19:40.968  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2023/04/03 18:19:40.968  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2023/04/03 18:19:40.971  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2023/04/03 18:19:41.053  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2023/04/03 18:19:41.063  INFO: Killing thread for interface PILOT_TCP_INT
+2023/04/03 18:19:41.064  INFO: Clean disconnect from PILOT_TCP_INT (returned nil)
+2023/04/03 18:19:41.064  INFO: Connection Lost for PILOT_TCP_INT
+2023/04/03 18:19:41.157  INFO: Stopped packet reading for PILOT_TCP_INT
+2023/04/03 18:19:41.157  INFO: Disconnected from interface PILOT_TCP_INT

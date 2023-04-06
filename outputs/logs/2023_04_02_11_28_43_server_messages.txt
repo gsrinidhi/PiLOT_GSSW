@@ -1,0 +1,33 @@
+2023/04/02 11:28:42.279  INFO: COSMOS Version: 4.5.2
+2023/04/02 11:28:42.279  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/Basic/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2023/04/02 11:28:42.309  INFO: Marshal load success: C:/COSMOS/Basic/outputs/tmp/marshal_4df8a7e39ee3db7435f56b96855c7be2.bin
+2023/04/02 11:28:42.309  WARN: PILOT_TCP PAYLOAD SIDE_PLATES redefined.
+2023/04/02 11:28:42.309  WARN: Read Conversion UnixTimeConversion on item HK_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/04/02 11:28:42.309  WARN: Read Conversion UnixTimeConversion on item ARIS_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/04/02 11:28:42.309  WARN: Read Conversion UnixTimeConversion on item PAYLOAD_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/04/02 11:28:42.309  WARN: Read Conversion UnixTimeConversion on item LOGS_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/04/02 11:28:42.540  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2023/04/02 11:28:42.540  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2023/04/02 11:28:42.541  INFO: Creating thread for interface PILOT_TCP_INT
+2023/04/02 11:28:42.542  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2023/04/02 11:28:42.542  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2023/04/02 11:28:42.542  INFO: PREIDENTIFIED_ROUTER Connection Success
+2023/04/02 11:28:42.542  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2023/04/02 11:28:42.542  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2023/04/02 11:28:42.546  INFO: Starting packet reading for PILOT_TCP_INT
+2023/04/02 11:28:42.546  INFO: Connecting to PILOT_TCP_INT...
+2023/04/02 11:28:42.546  INFO: PILOT_TCP_INT Connection Success
+2023/04/02 11:28:42.554  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2023/04/02 11:29:33.398  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2023/04/02 11:29:33.398  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2023/04/02 11:29:33.398  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2023/04/02 11:29:33.507  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2023/04/02 11:29:33.507  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2023/04/02 11:29:33.507  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2023/04/02 11:29:33.523  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2023/04/02 11:29:33.599  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2023/04/02 11:29:33.614  INFO: Killing thread for interface PILOT_TCP_INT
+2023/04/02 11:29:33.614  INFO: Clean disconnect from PILOT_TCP_INT (returned nil)
+2023/04/02 11:29:33.614  INFO: Connection Lost for PILOT_TCP_INT
+2023/04/02 11:29:33.722  INFO: Stopped packet reading for PILOT_TCP_INT
+2023/04/02 11:29:33.738  INFO: Disconnected from interface PILOT_TCP_INT

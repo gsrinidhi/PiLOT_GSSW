@@ -1,0 +1,31 @@
+2023/03/21 14:12:27.168  INFO: COSMOS Version: 4.5.2
+2023/03/21 14:12:27.168  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/Basic/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2023/03/21 14:12:27.179  INFO: Marshal load success: C:/COSMOS/Basic/outputs/tmp/marshal_a98623adce9cf41a430b941cc7d18b90.bin
+2023/03/21 14:12:27.179  WARN: Read Conversion UnixTimeConversion on item HK_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/03/21 14:12:27.179  WARN: Read Conversion UnixTimeConversion on item ARIS_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/03/21 14:12:27.179  WARN: Read Conversion UnixTimeConversion on item PAYLOAD_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/03/21 14:12:27.179  WARN: Read Conversion UnixTimeConversion on item LOGS_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/03/21 14:12:27.179  WARN: Read Conversion UnixTimeConversion on item HK_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/03/21 14:12:27.179  WARN: Read Conversion UnixTimeConversion on item ARIS_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/03/21 14:12:27.179  WARN: Read Conversion UnixTimeConversion on item PAYLOAD_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/03/21 14:12:27.179  WARN: Read Conversion UnixTimeConversion on item LOGS_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/03/21 14:12:27.179  WARN: Read Conversion UnixTimeConversion on item HK_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/03/21 14:12:27.179  WARN: Read Conversion UnixTimeConversion on item ARIS_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/03/21 14:12:27.179  WARN: Read Conversion UnixTimeConversion on item PAYLOAD_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/03/21 14:12:27.179  WARN: Read Conversion UnixTimeConversion on item LOGS_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/03/21 14:12:27.295  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2023/03/21 14:12:27.295  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2023/03/21 14:12:27.296  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2023/03/21 14:12:27.296  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2023/03/21 14:12:27.296  INFO: PREIDENTIFIED_ROUTER Connection Success
+2023/03/21 14:12:27.296  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2023/03/21 14:12:27.296  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2023/03/21 14:12:27.299  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2023/03/21 14:12:49.462  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2023/03/21 14:12:49.462  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2023/03/21 14:12:49.462  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2023/03/21 14:12:49.473  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2023/03/21 14:12:49.483  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2023/03/21 14:12:49.483  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2023/03/21 14:12:49.491  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2023/03/21 14:12:49.578  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER

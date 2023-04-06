@@ -1,0 +1,5 @@
+TITLE 'COSMOS Command and Telemetry Server'
+AUTO_INTERFACE_TARGETS # Use cmd_tlm_server.txt from all targets declared in system.txt
+#COLLECT_METADATA
+INTERFACE PILOT_TCP_INT tcpip_server_interface.rb 27015 27015 nil nil FIXED 12 0 08
+  TARGET PILOT_TCP

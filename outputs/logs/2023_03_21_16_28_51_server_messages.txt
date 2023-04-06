@@ -1,0 +1,82 @@
+2023/03/21 16:28:50.070  INFO: COSMOS Version: 4.5.2
+2023/03/21 16:28:50.070  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/Basic/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2023/03/21 16:28:50.140  INFO: Marshal load success: C:/COSMOS/Basic/outputs/tmp/marshal_55d76eef728eddfe33049225cf756c3b.bin
+2023/03/21 16:28:50.140  WARN: Read Conversion UnixTimeConversion on item HK_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/03/21 16:28:50.140  WARN: Read Conversion UnixTimeConversion on item ARIS_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/03/21 16:28:50.140  WARN: Read Conversion UnixTimeConversion on item PAYLOAD_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/03/21 16:28:50.140  WARN: Read Conversion UnixTimeConversion on item LOGS_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/03/21 16:28:50.140  WARN: Read Conversion UnixTimeConversion on item HK_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/03/21 16:28:50.140  WARN: Read Conversion UnixTimeConversion on item ARIS_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/03/21 16:28:50.140  WARN: Read Conversion UnixTimeConversion on item PAYLOAD_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/03/21 16:28:50.140  WARN: Read Conversion UnixTimeConversion on item LOGS_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/03/21 16:28:50.140  WARN: Read Conversion UnixTimeConversion on item HK_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/03/21 16:28:50.140  WARN: Read Conversion UnixTimeConversion on item ARIS_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/03/21 16:28:50.140  WARN: Read Conversion UnixTimeConversion on item PAYLOAD_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/03/21 16:28:50.140  WARN: Read Conversion UnixTimeConversion on item LOGS_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/03/21 16:28:50.243  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2023/03/21 16:28:50.244  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2023/03/21 16:28:50.244  INFO: Creating thread for interface PILOT_INT
+2023/03/21 16:28:50.245  INFO: Creating thread for interface PILOT_PSLV_INT
+2023/03/21 16:28:50.245  INFO: Creating thread for interface PILOT_TCP_INT
+2023/03/21 16:28:50.246  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2023/03/21 16:28:50.246  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2023/03/21 16:28:50.246  INFO: PREIDENTIFIED_ROUTER Connection Success
+2023/03/21 16:28:50.246  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2023/03/21 16:28:50.246  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2023/03/21 16:28:50.248  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2023/03/21 16:28:50.248  INFO: Starting packet reading for PILOT_INT
+2023/03/21 16:28:50.248  INFO: Connecting to PILOT_INT...
+2023/03/21 16:28:50.248  INFO: Starting packet reading for PILOT_PSLV_INT
+2023/03/21 16:28:50.248  INFO: Connecting to PILOT_PSLV_INT...
+2023/03/21 16:28:50.248  INFO: Starting packet reading for PILOT_TCP_INT
+2023/03/21 16:28:50.248  INFO: Connecting to PILOT_TCP_INT...
+2023/03/21 16:28:50.249  INFO: PILOT_TCP_INT Connection Success
+2023/03/21 16:28:50.273  ERROR: PILOT_INT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2023/03/21 16:28:50.273  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.5.2/lib/cosmos/win32/win32.rb:21:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.5.2/lib/cosmos/io/win32_serial_driver.rb:58:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.5.2/lib/cosmos/io/serial_driver.rb:50:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.5.2/lib/cosmos/io/serial_driver.rb:50:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.5.2/lib/cosmos/streams/serial_stream.rb:68:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.5.2/lib/cosmos/streams/serial_stream.rb:68:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.5.2/lib/cosmos/interfaces/serial_interface.rb:60:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.5.2/lib/cosmos/interfaces/serial_interface.rb:60:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.5.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:269:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.5.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.5.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.5.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2023/03/21 16:28:50.273  ERROR: PILOT_PSLV_INT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2023/03/21 16:28:50.273  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.5.2/lib/cosmos/win32/win32.rb:21:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.5.2/lib/cosmos/io/win32_serial_driver.rb:58:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.5.2/lib/cosmos/io/serial_driver.rb:50:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.5.2/lib/cosmos/io/serial_driver.rb:50:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.5.2/lib/cosmos/streams/serial_stream.rb:68:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.5.2/lib/cosmos/streams/serial_stream.rb:68:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.5.2/lib/cosmos/interfaces/serial_interface.rb:60:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.5.2/lib/cosmos/interfaces/serial_interface.rb:60:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.5.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:269:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.5.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.5.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.5.0/gems/cosmos-4.5.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2023/03/21 16:28:53.330  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2023/03/21 16:28:53.331  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2023/03/21 16:28:53.331  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2023/03/21 16:28:53.352  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2023/03/21 16:28:53.362  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2023/03/21 16:28:53.362  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2023/03/21 16:28:53.368  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2023/03/21 16:28:53.454  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2023/03/21 16:28:53.464  INFO: Killing thread for interface PILOT_INT
+2023/03/21 16:28:53.465  INFO: Stopped packet reading for PILOT_INT
+2023/03/21 16:28:53.475  INFO: Disconnected from interface PILOT_INT
+2023/03/21 16:28:53.475  INFO: Killing thread for interface PILOT_PSLV_INT
+2023/03/21 16:28:53.476  INFO: Stopped packet reading for PILOT_PSLV_INT
+2023/03/21 16:28:53.485  INFO: Disconnected from interface PILOT_PSLV_INT
+2023/03/21 16:28:53.485  INFO: Killing thread for interface PILOT_TCP_INT
+2023/03/21 16:28:53.485  INFO: Clean disconnect from PILOT_TCP_INT (returned nil)
+2023/03/21 16:28:53.485  INFO: Connection Lost for PILOT_TCP_INT
+2023/03/21 16:28:53.557  INFO: Stopped packet reading for PILOT_TCP_INT
+2023/03/21 16:28:53.567  INFO: Disconnected from interface PILOT_TCP_INT

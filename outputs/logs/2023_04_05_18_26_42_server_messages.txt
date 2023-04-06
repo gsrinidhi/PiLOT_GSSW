@@ -1,0 +1,974 @@
+2023/04/05 18:26:41.290  INFO: COSMOS Version: 4.5.2
+2023/04/05 18:26:41.290  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/Basic/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2023/04/05 18:26:41.339  INFO: Marshal load success: C:/COSMOS/Basic/outputs/tmp/marshal_4df8a7e39ee3db7435f56b96855c7be2.bin
+2023/04/05 18:26:41.339  WARN: PILOT_TCP PAYLOAD SIDE_PLATES redefined.
+2023/04/05 18:26:41.339  WARN: Read Conversion UnixTimeConversion on item HK_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/04/05 18:26:41.339  WARN: Read Conversion UnixTimeConversion on item ARIS_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/04/05 18:26:41.339  WARN: Read Conversion UnixTimeConversion on item PAYLOAD_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/04/05 18:26:41.339  WARN: Read Conversion UnixTimeConversion on item LOGS_TIME does not specify converted type or bit size. Will not be supported by DART
+2023/04/05 18:26:41.567  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2023/04/05 18:26:41.568  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2023/04/05 18:26:41.568  INFO: Creating thread for interface PILOT_TCP_INT
+2023/04/05 18:26:41.569  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2023/04/05 18:26:41.569  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2023/04/05 18:26:41.569  INFO: PREIDENTIFIED_ROUTER Connection Success
+2023/04/05 18:26:41.569  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2023/04/05 18:26:41.569  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2023/04/05 18:26:41.573  INFO: Starting packet reading for PILOT_TCP_INT
+2023/04/05 18:26:41.573  INFO: Connecting to PILOT_TCP_INT...
+2023/04/05 18:26:41.574  INFO: PILOT_TCP_INT Connection Success
+2023/04/05 18:26:41.581  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2023/04/05 18:26:51.203  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60746
+2023/04/05 18:26:51.204  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60747
+2023/04/05 18:26:51.205  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60748
+2023/04/05 18:26:51.206  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60749
+2023/04/05 18:26:51.206  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60746
+2023/04/05 18:26:51.207  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60747
+2023/04/05 18:26:51.207  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60748
+2023/04/05 18:26:51.208  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60749
+2023/04/05 18:26:51.208  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60750
+2023/04/05 18:26:51.214  INFO: Log File Opened : C:/COSMOS/Basic/outputs/logs/2023_04_05_18_26_51_tlm.bin
+2023/04/05 18:26:51.214  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60750
+2023/04/05 18:26:51.215  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60751
+2023/04/05 18:26:51.216  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60751
+2023/04/05 18:26:51.216  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60752
+2023/04/05 18:26:51.217  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60752
+2023/04/05 18:26:51.217  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60753
+2023/04/05 18:26:51.218  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60753
+2023/04/05 18:26:51.218  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60754
+2023/04/05 18:26:51.219  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60754
+2023/04/05 18:26:51.219  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60755
+2023/04/05 18:26:51.220  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60755
+2023/04/05 18:26:51.221  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60756
+2023/04/05 18:26:51.221  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60756
+2023/04/05 18:26:51.279  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60746
+2023/04/05 18:26:51.280  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60747
+2023/04/05 18:26:51.280  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60748
+2023/04/05 18:26:51.280  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60749
+2023/04/05 18:26:51.280  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60750
+2023/04/05 18:26:51.280  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60751
+2023/04/05 18:26:51.280  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60752
+2023/04/05 18:26:51.280  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60753
+2023/04/05 18:26:51.280  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60754
+2023/04/05 18:26:51.280  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60755
+2023/04/05 18:26:51.280  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60756
+2023/04/05 18:26:51.724  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60757
+2023/04/05 18:26:51.725  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60758
+2023/04/05 18:26:51.726  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60757
+2023/04/05 18:26:51.726  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60758
+2023/04/05 18:26:51.746  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60759
+2023/04/05 18:26:51.747  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60760
+2023/04/05 18:26:51.747  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60761
+2023/04/05 18:26:51.748  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60762
+2023/04/05 18:26:51.749  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60759
+2023/04/05 18:26:51.749  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60760
+2023/04/05 18:26:51.750  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60761
+2023/04/05 18:26:51.750  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60762
+2023/04/05 18:26:51.750  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60763
+2023/04/05 18:26:51.751  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60763
+2023/04/05 18:26:51.817  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60757
+2023/04/05 18:26:51.817  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60758
+2023/04/05 18:26:51.817  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60759
+2023/04/05 18:26:51.817  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60760
+2023/04/05 18:26:51.817  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60761
+2023/04/05 18:26:51.817  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60762
+2023/04/05 18:26:51.817  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60763
+2023/04/05 18:26:52.232  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60764
+2023/04/05 18:26:52.232  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60765
+2023/04/05 18:26:52.234  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60766
+2023/04/05 18:26:52.234  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60764
+2023/04/05 18:26:52.235  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60765
+2023/04/05 18:26:52.235  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60766
+2023/04/05 18:26:52.235  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60767
+2023/04/05 18:26:52.236  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60767
+2023/04/05 18:26:52.237  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60768
+2023/04/05 18:26:52.238  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60768
+2023/04/05 18:26:52.239  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60769
+2023/04/05 18:26:52.240  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60769
+2023/04/05 18:26:52.240  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60770
+2023/04/05 18:26:52.241  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60770
+2023/04/05 18:26:52.241  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60771
+2023/04/05 18:26:52.242  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60771
+2023/04/05 18:26:52.242  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60772
+2023/04/05 18:26:52.244  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60772
+2023/04/05 18:26:52.244  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60773
+2023/04/05 18:26:52.245  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60773
+2023/04/05 18:26:52.246  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60774
+2023/04/05 18:26:52.246  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60764
+2023/04/05 18:26:52.247  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60765
+2023/04/05 18:26:52.247  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60774
+2023/04/05 18:26:52.247  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60766
+2023/04/05 18:26:52.247  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60767
+2023/04/05 18:26:52.247  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60768
+2023/04/05 18:26:52.247  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60769
+2023/04/05 18:26:52.247  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60770
+2023/04/05 18:26:52.247  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60771
+2023/04/05 18:26:52.247  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60772
+2023/04/05 18:26:52.248  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60775
+2023/04/05 18:26:52.249  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60775
+2023/04/05 18:26:52.250  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60776
+2023/04/05 18:26:52.251  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60776
+2023/04/05 18:26:52.251  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60777
+2023/04/05 18:26:52.253  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60777
+2023/04/05 18:26:52.253  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60778
+2023/04/05 18:26:52.254  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60778
+2023/04/05 18:26:52.354  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60773
+2023/04/05 18:26:52.354  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60774
+2023/04/05 18:26:52.354  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60775
+2023/04/05 18:26:52.354  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60776
+2023/04/05 18:26:52.354  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60777
+2023/04/05 18:26:52.354  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60778
+2023/04/05 18:26:52.754  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60779
+2023/04/05 18:26:52.754  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60780
+2023/04/05 18:26:52.760  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60779
+2023/04/05 18:26:52.763  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60780
+2023/04/05 18:26:52.769  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60781
+2023/04/05 18:26:52.770  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60782
+2023/04/05 18:26:52.771  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60783
+2023/04/05 18:26:52.772  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60784
+2023/04/05 18:26:52.773  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60781
+2023/04/05 18:26:52.773  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60782
+2023/04/05 18:26:52.774  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60783
+2023/04/05 18:26:52.775  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60784
+2023/04/05 18:26:52.775  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60785
+2023/04/05 18:26:52.775  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60785
+2023/04/05 18:26:52.782  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60779
+2023/04/05 18:26:52.782  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60780
+2023/04/05 18:26:52.782  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60781
+2023/04/05 18:26:52.782  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60782
+2023/04/05 18:26:52.782  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60783
+2023/04/05 18:26:52.782  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60784
+2023/04/05 18:26:52.782  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60785
+2023/04/05 18:26:53.272  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60786
+2023/04/05 18:26:53.273  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60787
+2023/04/05 18:26:53.273  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60786
+2023/04/05 18:26:53.276  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60787
+2023/04/05 18:26:53.279  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60788
+2023/04/05 18:26:53.280  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60789
+2023/04/05 18:26:53.280  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60790
+2023/04/05 18:26:53.281  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60791
+2023/04/05 18:26:53.282  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60788
+2023/04/05 18:26:53.282  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60789
+2023/04/05 18:26:53.283  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60790
+2023/04/05 18:26:53.283  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60791
+2023/04/05 18:26:53.283  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60792
+2023/04/05 18:26:53.283  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60792
+2023/04/05 18:26:53.312  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60786
+2023/04/05 18:26:53.313  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60787
+2023/04/05 18:26:53.313  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60788
+2023/04/05 18:26:53.313  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60789
+2023/04/05 18:26:53.313  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60790
+2023/04/05 18:26:53.313  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60791
+2023/04/05 18:26:53.313  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60792
+2023/04/05 18:26:53.788  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60793
+2023/04/05 18:26:53.788  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60794
+2023/04/05 18:26:53.790  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60793
+2023/04/05 18:26:53.790  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60794
+2023/04/05 18:26:53.803  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60795
+2023/04/05 18:26:53.804  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60796
+2023/04/05 18:26:53.805  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60797
+2023/04/05 18:26:53.806  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60798
+2023/04/05 18:26:53.808  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60795
+2023/04/05 18:26:53.809  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60796
+2023/04/05 18:26:53.809  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60797
+2023/04/05 18:26:53.809  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60798
+2023/04/05 18:26:53.809  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60799
+2023/04/05 18:26:53.810  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60799
+2023/04/05 18:26:53.842  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60793
+2023/04/05 18:26:53.843  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60794
+2023/04/05 18:26:53.843  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60795
+2023/04/05 18:26:53.843  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60796
+2023/04/05 18:26:53.843  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60797
+2023/04/05 18:26:53.843  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60798
+2023/04/05 18:26:53.843  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60799
+2023/04/05 18:26:54.315  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60800
+2023/04/05 18:26:54.315  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60801
+2023/04/05 18:26:54.316  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60802
+2023/04/05 18:26:54.317  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60803
+2023/04/05 18:26:54.318  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60800
+2023/04/05 18:26:54.321  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60802
+2023/04/05 18:26:54.321  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60801
+2023/04/05 18:26:54.322  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60803
+2023/04/05 18:26:54.322  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60804
+2023/04/05 18:26:54.323  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60804
+2023/04/05 18:26:54.324  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60805
+2023/04/05 18:26:54.324  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60805
+2023/04/05 18:26:54.376  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60800
+2023/04/05 18:26:54.376  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60801
+2023/04/05 18:26:54.376  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60802
+2023/04/05 18:26:54.376  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60803
+2023/04/05 18:26:54.376  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60804
+2023/04/05 18:26:54.376  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60805
+2023/04/05 18:26:54.816  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60806
+2023/04/05 18:26:54.817  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60807
+2023/04/05 18:26:54.818  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60806
+2023/04/05 18:26:54.819  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60807
+2023/04/05 18:26:54.823  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60808
+2023/04/05 18:26:54.825  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60809
+2023/04/05 18:26:54.825  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60810
+2023/04/05 18:26:54.826  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60811
+2023/04/05 18:26:54.827  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60812
+2023/04/05 18:26:54.827  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60813
+2023/04/05 18:26:54.828  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60814
+2023/04/05 18:26:54.828  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60815
+2023/04/05 18:26:54.829  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60816
+2023/04/05 18:26:54.830  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60814
+2023/04/05 18:26:54.830  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60815
+2023/04/05 18:26:54.832  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60808
+2023/04/05 18:26:54.835  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60809
+2023/04/05 18:26:54.837  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60810
+2023/04/05 18:26:54.837  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60811
+2023/04/05 18:26:54.839  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60812
+2023/04/05 18:26:54.839  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60813
+2023/04/05 18:26:54.839  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60816
+2023/04/05 18:26:54.847  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60817
+2023/04/05 18:26:54.848  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60818
+2023/04/05 18:26:54.848  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60819
+2023/04/05 18:26:54.849  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60820
+2023/04/05 18:26:54.850  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60817
+2023/04/05 18:26:54.850  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60818
+2023/04/05 18:26:54.850  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60819
+2023/04/05 18:26:54.851  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60820
+2023/04/05 18:26:54.851  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60821
+2023/04/05 18:26:54.851  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60821
+2023/04/05 18:26:54.899  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60806
+2023/04/05 18:26:54.900  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60807
+2023/04/05 18:26:54.900  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60808
+2023/04/05 18:26:54.900  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60809
+2023/04/05 18:26:54.900  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60810
+2023/04/05 18:26:54.900  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60811
+2023/04/05 18:26:54.900  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60812
+2023/04/05 18:26:54.900  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60813
+2023/04/05 18:26:54.900  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60814
+2023/04/05 18:26:54.900  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60815
+2023/04/05 18:26:54.900  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60816
+2023/04/05 18:26:54.900  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60817
+2023/04/05 18:26:54.900  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60818
+2023/04/05 18:26:54.901  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60819
+2023/04/05 18:26:54.901  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60820
+2023/04/05 18:26:54.901  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60821
+2023/04/05 18:26:55.344  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60822
+2023/04/05 18:26:55.344  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60823
+2023/04/05 18:26:55.345  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60822
+2023/04/05 18:26:55.346  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60823
+2023/04/05 18:26:55.350  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60824
+2023/04/05 18:26:55.351  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60825
+2023/04/05 18:26:55.351  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60826
+2023/04/05 18:26:55.352  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60827
+2023/04/05 18:26:55.352  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60824
+2023/04/05 18:26:55.356  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60825
+2023/04/05 18:26:55.356  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60826
+2023/04/05 18:26:55.357  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60827
+2023/04/05 18:26:55.357  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60828
+2023/04/05 18:26:55.359  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60828
+2023/04/05 18:26:55.360  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60829
+2023/04/05 18:26:55.361  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60829
+2023/04/05 18:26:55.361  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60830
+2023/04/05 18:26:55.362  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60830
+2023/04/05 18:26:55.362  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60831
+2023/04/05 18:26:55.363  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60831
+2023/04/05 18:26:55.363  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60832
+2023/04/05 18:26:55.364  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60832
+2023/04/05 18:26:55.365  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60833
+2023/04/05 18:26:55.366  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60833
+2023/04/05 18:26:55.366  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60834
+2023/04/05 18:26:55.367  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60834
+2023/04/05 18:26:55.433  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60822
+2023/04/05 18:26:55.433  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60823
+2023/04/05 18:26:55.433  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60824
+2023/04/05 18:26:55.433  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60825
+2023/04/05 18:26:55.434  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60826
+2023/04/05 18:26:55.434  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60827
+2023/04/05 18:26:55.434  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60828
+2023/04/05 18:26:55.434  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60829
+2023/04/05 18:26:55.434  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60830
+2023/04/05 18:26:55.434  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60831
+2023/04/05 18:26:55.434  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60832
+2023/04/05 18:26:55.434  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60833
+2023/04/05 18:26:55.434  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60834
+2023/04/05 18:26:55.866  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60835
+2023/04/05 18:26:55.866  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60836
+2023/04/05 18:26:55.868  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60836
+2023/04/05 18:26:55.869  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60835
+2023/04/05 18:26:55.873  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60837
+2023/04/05 18:26:55.873  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60835
+2023/04/05 18:26:55.874  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60836
+2023/04/05 18:26:55.874  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60837
+2023/04/05 18:26:55.875  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60838
+2023/04/05 18:26:55.876  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60838
+2023/04/05 18:26:55.876  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60839
+2023/04/05 18:26:55.877  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60839
+2023/04/05 18:26:55.877  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60840
+2023/04/05 18:26:55.878  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60840
+2023/04/05 18:26:55.878  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60841
+2023/04/05 18:26:55.879  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60841
+2023/04/05 18:26:55.974  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60837
+2023/04/05 18:26:55.975  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60838
+2023/04/05 18:26:55.975  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60839
+2023/04/05 18:26:55.975  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60840
+2023/04/05 18:26:55.975  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60841
+2023/04/05 18:26:56.376  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60842
+2023/04/05 18:26:56.377  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60843
+2023/04/05 18:26:56.378  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60842
+2023/04/05 18:26:56.384  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60844
+2023/04/05 18:26:56.384  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60843
+2023/04/05 18:26:56.386  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60844
+2023/04/05 18:26:56.386  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60845
+2023/04/05 18:26:56.387  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60846
+2023/04/05 18:26:56.388  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60847
+2023/04/05 18:26:56.389  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60846
+2023/04/05 18:26:56.389  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60845
+2023/04/05 18:26:56.389  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60847
+2023/04/05 18:26:56.390  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60848
+2023/04/05 18:26:56.391  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60848
+2023/04/05 18:26:56.414  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60842
+2023/04/05 18:26:56.414  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60843
+2023/04/05 18:26:56.414  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60844
+2023/04/05 18:26:56.414  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60845
+2023/04/05 18:26:56.414  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60846
+2023/04/05 18:26:56.414  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60847
+2023/04/05 18:26:56.414  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60848
+2023/04/05 18:26:56.893  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60849
+2023/04/05 18:26:56.894  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60851
+2023/04/05 18:26:56.894  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60852
+2023/04/05 18:26:56.895  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60849
+2023/04/05 18:26:56.900  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60851
+2023/04/05 18:26:56.903  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60853
+2023/04/05 18:26:56.905  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60854
+2023/04/05 18:26:56.906  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60855
+2023/04/05 18:26:56.907  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60856
+2023/04/05 18:26:56.909  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60852
+2023/04/05 18:26:56.910  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60854
+2023/04/05 18:26:56.910  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60853
+2023/04/05 18:26:56.910  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60855
+2023/04/05 18:26:56.910  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60856
+2023/04/05 18:26:56.911  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60857
+2023/04/05 18:26:56.912  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60857
+2023/04/05 18:26:56.913  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60858
+2023/04/05 18:26:56.913  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60858
+2023/04/05 18:26:56.962  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60849
+2023/04/05 18:26:56.962  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60851
+2023/04/05 18:26:56.962  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60852
+2023/04/05 18:26:56.962  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60853
+2023/04/05 18:26:56.962  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60854
+2023/04/05 18:26:56.962  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60855
+2023/04/05 18:26:56.962  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60856
+2023/04/05 18:26:56.962  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60857
+2023/04/05 18:26:56.962  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60858
+2023/04/05 18:26:57.409  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60859
+2023/04/05 18:26:57.410  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60860
+2023/04/05 18:26:57.412  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60861
+2023/04/05 18:26:57.413  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60862
+2023/04/05 18:26:57.413  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60859
+2023/04/05 18:26:57.415  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60860
+2023/04/05 18:26:57.416  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60861
+2023/04/05 18:26:57.417  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60862
+2023/04/05 18:26:57.417  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60863
+2023/04/05 18:26:57.418  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60864
+2023/04/05 18:26:57.422  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60863
+2023/04/05 18:26:57.423  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60864
+2023/04/05 18:26:57.424  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60865
+2023/04/05 18:26:57.425  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60865
+2023/04/05 18:26:57.426  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60866
+2023/04/05 18:26:57.427  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60866
+2023/04/05 18:26:57.427  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60867
+2023/04/05 18:26:57.428  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60867
+2023/04/05 18:26:57.429  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60868
+2023/04/05 18:26:57.430  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60868
+2023/04/05 18:26:57.430  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60869
+2023/04/05 18:26:57.431  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60869
+2023/04/05 18:26:57.431  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60870
+2023/04/05 18:26:57.432  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60870
+2023/04/05 18:26:57.508  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60859
+2023/04/05 18:26:57.509  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60860
+2023/04/05 18:26:57.509  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60861
+2023/04/05 18:26:57.509  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60862
+2023/04/05 18:26:57.509  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60863
+2023/04/05 18:26:57.509  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60864
+2023/04/05 18:26:57.509  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60865
+2023/04/05 18:26:57.509  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60866
+2023/04/05 18:26:57.509  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60867
+2023/04/05 18:26:57.509  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60868
+2023/04/05 18:26:57.509  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60869
+2023/04/05 18:26:57.509  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60870
+2023/04/05 18:26:57.934  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60871
+2023/04/05 18:26:57.935  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60871
+2023/04/05 18:26:57.942  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60872
+2023/04/05 18:26:57.942  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60871
+2023/04/05 18:26:57.945  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60872
+2023/04/05 18:26:57.945  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60873
+2023/04/05 18:26:57.946  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60874
+2023/04/05 18:26:57.947  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60875
+2023/04/05 18:26:57.947  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60873
+2023/04/05 18:26:57.948  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60874
+2023/04/05 18:26:57.948  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60875
+2023/04/05 18:26:57.948  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60876
+2023/04/05 18:26:57.949  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60876
+2023/04/05 18:26:57.950  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60877
+2023/04/05 18:26:57.951  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60877
+2023/04/05 18:26:57.951  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60878
+2023/04/05 18:26:57.952  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60878
+2023/04/05 18:26:58.057  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60872
+2023/04/05 18:26:58.058  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60873
+2023/04/05 18:26:58.058  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60874
+2023/04/05 18:26:58.058  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60875
+2023/04/05 18:26:58.058  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60876
+2023/04/05 18:26:58.058  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60877
+2023/04/05 18:26:58.058  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60878
+2023/04/05 18:26:58.461  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60879
+2023/04/05 18:26:58.462  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60880
+2023/04/05 18:26:58.462  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60880
+2023/04/05 18:26:58.463  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60879
+2023/04/05 18:26:58.469  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60881
+2023/04/05 18:26:58.470  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60882
+2023/04/05 18:26:58.471  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60883
+2023/04/05 18:26:58.471  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60884
+2023/04/05 18:26:58.472  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60885
+2023/04/05 18:26:58.473  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60881
+2023/04/05 18:26:58.473  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60882
+2023/04/05 18:26:58.473  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60883
+2023/04/05 18:26:58.473  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60884
+2023/04/05 18:26:58.473  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60885
+2023/04/05 18:26:58.500  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60879
+2023/04/05 18:26:58.501  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60880
+2023/04/05 18:26:58.502  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60881
+2023/04/05 18:26:58.502  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60882
+2023/04/05 18:26:58.502  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60883
+2023/04/05 18:26:58.502  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60884
+2023/04/05 18:26:58.502  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60885
+2023/04/05 18:26:58.977  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60886
+2023/04/05 18:26:58.977  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60887
+2023/04/05 18:26:58.978  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60887
+2023/04/05 18:26:58.980  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60886
+2023/04/05 18:26:58.991  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60888
+2023/04/05 18:26:58.992  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60889
+2023/04/05 18:26:58.993  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60890
+2023/04/05 18:26:58.994  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60891
+2023/04/05 18:26:58.994  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60888
+2023/04/05 18:26:58.995  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60889
+2023/04/05 18:26:58.995  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60890
+2023/04/05 18:26:58.996  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60891
+2023/04/05 18:26:58.996  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60892
+2023/04/05 18:26:58.996  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60892
+2023/04/05 18:26:59.037  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60886
+2023/04/05 18:26:59.037  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60887
+2023/04/05 18:26:59.037  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60888
+2023/04/05 18:26:59.037  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60889
+2023/04/05 18:26:59.037  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60890
+2023/04/05 18:26:59.038  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60891
+2023/04/05 18:26:59.038  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60892
+2023/04/05 18:26:59.506  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60893
+2023/04/05 18:26:59.506  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60894
+2023/04/05 18:26:59.508  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60895
+2023/04/05 18:26:59.509  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60896
+2023/04/05 18:26:59.510  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60893
+2023/04/05 18:26:59.510  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60894
+2023/04/05 18:26:59.511  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60895
+2023/04/05 18:26:59.511  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60896
+2023/04/05 18:26:59.511  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60897
+2023/04/05 18:26:59.512  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60897
+2023/04/05 18:26:59.580  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60893
+2023/04/05 18:26:59.580  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60894
+2023/04/05 18:26:59.580  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60895
+2023/04/05 18:26:59.581  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60896
+2023/04/05 18:26:59.581  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60897
+2023/04/05 18:27:00.014  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60898
+2023/04/05 18:27:00.015  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60899
+2023/04/05 18:27:00.016  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60900
+2023/04/05 18:27:00.017  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60901
+2023/04/05 18:27:00.017  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60902
+2023/04/05 18:27:00.019  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60898
+2023/04/05 18:27:00.019  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60900
+2023/04/05 18:27:00.019  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60901
+2023/04/05 18:27:00.019  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60899
+2023/04/05 18:27:00.020  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60902
+2023/04/05 18:27:00.118  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60898
+2023/04/05 18:27:00.119  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60899
+2023/04/05 18:27:00.119  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60900
+2023/04/05 18:27:00.119  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60901
+2023/04/05 18:27:00.119  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60902
+2023/04/05 18:27:00.524  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60903
+2023/04/05 18:27:00.525  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60904
+2023/04/05 18:27:00.526  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60905
+2023/04/05 18:27:00.527  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60906
+2023/04/05 18:27:00.527  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60903
+2023/04/05 18:27:00.527  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60904
+2023/04/05 18:27:00.528  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60905
+2023/04/05 18:27:00.528  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60906
+2023/04/05 18:27:00.529  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60907
+2023/04/05 18:27:00.530  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60907
+2023/04/05 18:27:00.555  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60903
+2023/04/05 18:27:00.556  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60904
+2023/04/05 18:27:00.556  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60905
+2023/04/05 18:27:00.556  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60906
+2023/04/05 18:27:00.556  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60907
+2023/04/05 18:27:01.032  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60908
+2023/04/05 18:27:01.033  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60909
+2023/04/05 18:27:01.034  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60910
+2023/04/05 18:27:01.035  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60911
+2023/04/05 18:27:01.036  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60908
+2023/04/05 18:27:01.037  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60909
+2023/04/05 18:27:01.037  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60910
+2023/04/05 18:27:01.037  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60911
+2023/04/05 18:27:01.038  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60912
+2023/04/05 18:27:01.038  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60912
+2023/04/05 18:27:01.094  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60908
+2023/04/05 18:27:01.095  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60909
+2023/04/05 18:27:01.095  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60910
+2023/04/05 18:27:01.095  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60911
+2023/04/05 18:27:01.095  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60912
+2023/04/05 18:27:01.523  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60913
+2023/04/05 18:27:01.524  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60914
+2023/04/05 18:27:01.526  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60913
+2023/04/05 18:27:01.528  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60914
+2023/04/05 18:27:01.570  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60915
+2023/04/05 18:27:01.572  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60916
+2023/04/05 18:27:01.572  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60917
+2023/04/05 18:27:01.573  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60918
+2023/04/05 18:27:01.574  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60919
+2023/04/05 18:27:01.574  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60915
+2023/04/05 18:27:01.575  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60916
+2023/04/05 18:27:01.575  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60917
+2023/04/05 18:27:01.575  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60918
+2023/04/05 18:27:01.576  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60919
+2023/04/05 18:27:01.631  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60913
+2023/04/05 18:27:01.632  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60914
+2023/04/05 18:27:01.632  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60915
+2023/04/05 18:27:01.632  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60916
+2023/04/05 18:27:01.632  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60917
+2023/04/05 18:27:01.632  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60918
+2023/04/05 18:27:01.632  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60919
+2023/04/05 18:27:02.053  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60920
+2023/04/05 18:27:02.053  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60921
+2023/04/05 18:27:02.054  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60922
+2023/04/05 18:27:02.055  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60923
+2023/04/05 18:27:02.055  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60920
+2023/04/05 18:27:02.056  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60921
+2023/04/05 18:27:02.056  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60922
+2023/04/05 18:27:02.056  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60923
+2023/04/05 18:27:02.057  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60924
+2023/04/05 18:27:02.057  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60924
+2023/04/05 18:27:02.068  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60920
+2023/04/05 18:27:02.068  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60921
+2023/04/05 18:27:02.073  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60922
+2023/04/05 18:27:02.073  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60923
+2023/04/05 18:27:02.073  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60924
+2023/04/05 18:27:02.549  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60925
+2023/04/05 18:27:02.550  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60926
+2023/04/05 18:27:02.552  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60927
+2023/04/05 18:27:02.553  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60928
+2023/04/05 18:27:02.554  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60929
+2023/04/05 18:27:02.555  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60930
+2023/04/05 18:27:02.555  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60931
+2023/04/05 18:27:02.556  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60932
+2023/04/05 18:27:02.556  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60933
+2023/04/05 18:27:02.558  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60925
+2023/04/05 18:27:02.559  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60927
+2023/04/05 18:27:02.559  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60928
+2023/04/05 18:27:02.560  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60926
+2023/04/05 18:27:02.563  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60934
+2023/04/05 18:27:02.564  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60935
+2023/04/05 18:27:02.564  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60936
+2023/04/05 18:27:02.565  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60929
+2023/04/05 18:27:02.566  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60930
+2023/04/05 18:27:02.567  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60935
+2023/04/05 18:27:02.569  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60931
+2023/04/05 18:27:02.569  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60933
+2023/04/05 18:27:02.569  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60936
+2023/04/05 18:27:02.569  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60932
+2023/04/05 18:27:02.570  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60934
+2023/04/05 18:27:02.572  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60937
+2023/04/05 18:27:02.572  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60938
+2023/04/05 18:27:02.573  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60939
+2023/04/05 18:27:02.573  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60937
+2023/04/05 18:27:02.574  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60938
+2023/04/05 18:27:02.574  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60939
+2023/04/05 18:27:02.574  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60940
+2023/04/05 18:27:02.575  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60940
+2023/04/05 18:27:02.576  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60941
+2023/04/05 18:27:02.576  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60941
+2023/04/05 18:27:02.577  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60942
+2023/04/05 18:27:02.578  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60942
+2023/04/05 18:27:02.608  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60925
+2023/04/05 18:27:02.609  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60926
+2023/04/05 18:27:02.609  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60927
+2023/04/05 18:27:02.609  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60928
+2023/04/05 18:27:02.609  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60929
+2023/04/05 18:27:02.609  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60930
+2023/04/05 18:27:02.609  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60931
+2023/04/05 18:27:02.609  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60932
+2023/04/05 18:27:02.609  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60933
+2023/04/05 18:27:02.609  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60934
+2023/04/05 18:27:02.609  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60935
+2023/04/05 18:27:02.609  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60936
+2023/04/05 18:27:02.609  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60937
+2023/04/05 18:27:02.609  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60938
+2023/04/05 18:27:02.609  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60939
+2023/04/05 18:27:02.609  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60940
+2023/04/05 18:27:02.609  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60941
+2023/04/05 18:27:02.609  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60942
+2023/04/05 18:27:03.076  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60943
+2023/04/05 18:27:03.076  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60944
+2023/04/05 18:27:03.077  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60944
+2023/04/05 18:27:03.078  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60943
+2023/04/05 18:27:03.090  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60945
+2023/04/05 18:27:03.091  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60946
+2023/04/05 18:27:03.091  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60947
+2023/04/05 18:27:03.092  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60948
+2023/04/05 18:27:03.093  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60945
+2023/04/05 18:27:03.093  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60946
+2023/04/05 18:27:03.093  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60947
+2023/04/05 18:27:03.093  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60948
+2023/04/05 18:27:03.094  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60949
+2023/04/05 18:27:03.094  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60949
+2023/04/05 18:27:03.151  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60943
+2023/04/05 18:27:03.151  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60944
+2023/04/05 18:27:03.151  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60945
+2023/04/05 18:27:03.151  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60946
+2023/04/05 18:27:03.151  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60947
+2023/04/05 18:27:03.151  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60948
+2023/04/05 18:27:03.152  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60949
+2023/04/05 18:27:03.612  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60950
+2023/04/05 18:27:03.613  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60951
+2023/04/05 18:27:03.613  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60952
+2023/04/05 18:27:03.614  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60953
+2023/04/05 18:27:03.615  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60950
+2023/04/05 18:27:03.615  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60951
+2023/04/05 18:27:03.615  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60952
+2023/04/05 18:27:03.616  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60953
+2023/04/05 18:27:03.616  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60954
+2023/04/05 18:27:03.616  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60954
+2023/04/05 18:27:03.688  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60950
+2023/04/05 18:27:03.688  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60951
+2023/04/05 18:27:03.688  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60952
+2023/04/05 18:27:03.688  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60953
+2023/04/05 18:27:03.688  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60954
+2023/04/05 18:27:04.122  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60955
+2023/04/05 18:27:04.122  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60956
+2023/04/05 18:27:04.123  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60957
+2023/04/05 18:27:04.124  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60958
+2023/04/05 18:27:04.124  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60955
+2023/04/05 18:27:04.125  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60956
+2023/04/05 18:27:04.125  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60957
+2023/04/05 18:27:04.125  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60958
+2023/04/05 18:27:04.126  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60959
+2023/04/05 18:27:04.126  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60959
+2023/04/05 18:27:04.230  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60955
+2023/04/05 18:27:04.230  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60956
+2023/04/05 18:27:04.230  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60957
+2023/04/05 18:27:04.230  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60958
+2023/04/05 18:27:04.230  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60959
+2023/04/05 18:27:04.634  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60960
+2023/04/05 18:27:04.634  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60961
+2023/04/05 18:27:04.635  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60962
+2023/04/05 18:27:04.636  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60963
+2023/04/05 18:27:04.636  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60960
+2023/04/05 18:27:04.637  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60961
+2023/04/05 18:27:04.638  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60962
+2023/04/05 18:27:04.638  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60963
+2023/04/05 18:27:04.638  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60964
+2023/04/05 18:27:04.639  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60964
+2023/04/05 18:27:04.664  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60960
+2023/04/05 18:27:04.665  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60961
+2023/04/05 18:27:04.665  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60962
+2023/04/05 18:27:04.665  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60963
+2023/04/05 18:27:04.665  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60964
+2023/04/05 18:27:05.143  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60965
+2023/04/05 18:27:05.144  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60966
+2023/04/05 18:27:05.145  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60967
+2023/04/05 18:27:05.145  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60968
+2023/04/05 18:27:05.146  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60965
+2023/04/05 18:27:05.147  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60966
+2023/04/05 18:27:05.147  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60967
+2023/04/05 18:27:05.147  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60968
+2023/04/05 18:27:05.148  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60969
+2023/04/05 18:27:05.148  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60969
+2023/04/05 18:27:05.204  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60965
+2023/04/05 18:27:05.204  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60966
+2023/04/05 18:27:05.204  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60967
+2023/04/05 18:27:05.204  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60968
+2023/04/05 18:27:05.204  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60969
+2023/04/05 18:27:05.658  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60970
+2023/04/05 18:27:05.658  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60971
+2023/04/05 18:27:05.659  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60972
+2023/04/05 18:27:05.659  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60973
+2023/04/05 18:27:05.660  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60970
+2023/04/05 18:27:05.660  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60971
+2023/04/05 18:27:05.661  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60972
+2023/04/05 18:27:05.661  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60973
+2023/04/05 18:27:05.661  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60974
+2023/04/05 18:27:05.662  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60974
+2023/04/05 18:27:05.750  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60970
+2023/04/05 18:27:05.750  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60971
+2023/04/05 18:27:05.750  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60972
+2023/04/05 18:27:05.750  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60973
+2023/04/05 18:27:05.750  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60974
+2023/04/05 18:27:06.155  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60975
+2023/04/05 18:27:06.160  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60976
+2023/04/05 18:27:06.162  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60977
+2023/04/05 18:27:06.163  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60978
+2023/04/05 18:27:06.163  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60975
+2023/04/05 18:27:06.164  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60976
+2023/04/05 18:27:06.164  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60977
+2023/04/05 18:27:06.165  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60978
+2023/04/05 18:27:06.165  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60979
+2023/04/05 18:27:06.166  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60979
+2023/04/05 18:27:06.166  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60980
+2023/04/05 18:27:06.168  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60980
+2023/04/05 18:27:06.168  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60981
+2023/04/05 18:27:06.168  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60981
+2023/04/05 18:27:06.182  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60975
+2023/04/05 18:27:06.182  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60976
+2023/04/05 18:27:06.182  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60977
+2023/04/05 18:27:06.182  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60978
+2023/04/05 18:27:06.182  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60979
+2023/04/05 18:27:06.182  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60980
+2023/04/05 18:27:06.182  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60981
+2023/04/05 18:27:06.691  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60982
+2023/04/05 18:27:06.691  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60983
+2023/04/05 18:27:06.692  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60984
+2023/04/05 18:27:06.693  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60985
+2023/04/05 18:27:06.693  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60982
+2023/04/05 18:27:06.694  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60983
+2023/04/05 18:27:06.694  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60984
+2023/04/05 18:27:06.694  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60985
+2023/04/05 18:27:06.695  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60986
+2023/04/05 18:27:06.696  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60986
+2023/04/05 18:27:06.721  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60982
+2023/04/05 18:27:06.721  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60983
+2023/04/05 18:27:06.721  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60984
+2023/04/05 18:27:06.722  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60985
+2023/04/05 18:27:06.722  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60986
+2023/04/05 18:27:07.199  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60987
+2023/04/05 18:27:07.199  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60988
+2023/04/05 18:27:07.200  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60989
+2023/04/05 18:27:07.200  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60990
+2023/04/05 18:27:07.201  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60987
+2023/04/05 18:27:07.201  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60988
+2023/04/05 18:27:07.202  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60989
+2023/04/05 18:27:07.202  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60990
+2023/04/05 18:27:07.202  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60991
+2023/04/05 18:27:07.203  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60991
+2023/04/05 18:27:07.259  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60987
+2023/04/05 18:27:07.259  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60988
+2023/04/05 18:27:07.259  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60989
+2023/04/05 18:27:07.259  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60990
+2023/04/05 18:27:07.260  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60991
+2023/04/05 18:27:07.712  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60992
+2023/04/05 18:27:07.713  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60993
+2023/04/05 18:27:07.713  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60994
+2023/04/05 18:27:07.714  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60995
+2023/04/05 18:27:07.714  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60992
+2023/04/05 18:27:07.715  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60993
+2023/04/05 18:27:07.715  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60994
+2023/04/05 18:27:07.715  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60995
+2023/04/05 18:27:07.716  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60996
+2023/04/05 18:27:07.716  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60996
+2023/04/05 18:27:07.803  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60992
+2023/04/05 18:27:07.803  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60993
+2023/04/05 18:27:07.803  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60994
+2023/04/05 18:27:07.803  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60995
+2023/04/05 18:27:07.803  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60996
+2023/04/05 18:27:08.223  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60997
+2023/04/05 18:27:08.224  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60998
+2023/04/05 18:27:08.224  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):60999
+2023/04/05 18:27:08.225  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61000
+2023/04/05 18:27:08.225  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60997
+2023/04/05 18:27:08.226  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60998
+2023/04/05 18:27:08.226  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):60999
+2023/04/05 18:27:08.226  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61000
+2023/04/05 18:27:08.227  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61001
+2023/04/05 18:27:08.227  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61001
+2023/04/05 18:27:08.238  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60997
+2023/04/05 18:27:08.239  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60998
+2023/04/05 18:27:08.239  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):60999
+2023/04/05 18:27:08.239  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61000
+2023/04/05 18:27:08.239  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61001
+2023/04/05 18:27:08.744  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61002
+2023/04/05 18:27:08.744  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61003
+2023/04/05 18:27:08.745  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61004
+2023/04/05 18:27:08.746  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61005
+2023/04/05 18:27:08.746  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61002
+2023/04/05 18:27:08.747  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61003
+2023/04/05 18:27:08.747  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61004
+2023/04/05 18:27:08.747  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61005
+2023/04/05 18:27:08.747  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61006
+2023/04/05 18:27:08.748  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61006
+2023/04/05 18:27:08.773  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61002
+2023/04/05 18:27:08.773  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61003
+2023/04/05 18:27:08.773  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61004
+2023/04/05 18:27:08.773  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61005
+2023/04/05 18:27:08.773  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61006
+2023/04/05 18:27:09.253  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61007
+2023/04/05 18:27:09.254  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61008
+2023/04/05 18:27:09.254  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61009
+2023/04/05 18:27:09.255  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61010
+2023/04/05 18:27:09.255  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61007
+2023/04/05 18:27:09.256  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61008
+2023/04/05 18:27:09.256  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61009
+2023/04/05 18:27:09.257  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61010
+2023/04/05 18:27:09.257  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61011
+2023/04/05 18:27:09.257  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61011
+2023/04/05 18:27:09.313  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61007
+2023/04/05 18:27:09.314  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61008
+2023/04/05 18:27:09.314  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61009
+2023/04/05 18:27:09.314  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61010
+2023/04/05 18:27:09.314  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61011
+2023/04/05 18:27:09.765  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61012
+2023/04/05 18:27:09.765  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61015
+2023/04/05 18:27:09.766  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61016
+2023/04/05 18:27:09.767  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61017
+2023/04/05 18:27:09.767  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61012
+2023/04/05 18:27:09.768  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61015
+2023/04/05 18:27:09.768  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61016
+2023/04/05 18:27:09.768  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61017
+2023/04/05 18:27:09.769  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61018
+2023/04/05 18:27:09.769  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61018
+2023/04/05 18:27:09.855  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61012
+2023/04/05 18:27:09.855  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61015
+2023/04/05 18:27:09.855  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61016
+2023/04/05 18:27:09.855  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61017
+2023/04/05 18:27:09.855  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61018
+2023/04/05 18:27:10.286  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61019
+2023/04/05 18:27:10.286  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61020
+2023/04/05 18:27:10.287  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61021
+2023/04/05 18:27:10.288  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61022
+2023/04/05 18:27:10.288  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61019
+2023/04/05 18:27:10.288  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61020
+2023/04/05 18:27:10.289  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61021
+2023/04/05 18:27:10.289  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61022
+2023/04/05 18:27:10.290  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61023
+2023/04/05 18:27:10.290  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61023
+2023/04/05 18:27:10.391  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61019
+2023/04/05 18:27:10.391  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61020
+2023/04/05 18:27:10.391  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61021
+2023/04/05 18:27:10.391  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61022
+2023/04/05 18:27:10.392  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61023
+2023/04/05 18:27:10.779  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61024
+2023/04/05 18:27:10.780  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61024
+2023/04/05 18:27:10.794  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61025
+2023/04/05 18:27:10.794  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61026
+2023/04/05 18:27:10.795  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61027
+2023/04/05 18:27:10.796  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61028
+2023/04/05 18:27:10.796  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61025
+2023/04/05 18:27:10.797  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61026
+2023/04/05 18:27:10.797  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61027
+2023/04/05 18:27:10.797  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61028
+2023/04/05 18:27:10.798  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61029
+2023/04/05 18:27:10.798  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61029
+2023/04/05 18:27:10.823  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61024
+2023/04/05 18:27:10.823  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61025
+2023/04/05 18:27:10.824  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61026
+2023/04/05 18:27:10.824  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61027
+2023/04/05 18:27:10.824  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61028
+2023/04/05 18:27:10.824  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61029
+2023/04/05 18:27:11.304  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61030
+2023/04/05 18:27:11.305  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61031
+2023/04/05 18:27:11.305  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61032
+2023/04/05 18:27:11.306  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61033
+2023/04/05 18:27:11.307  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61030
+2023/04/05 18:27:11.307  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61031
+2023/04/05 18:27:11.308  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61032
+2023/04/05 18:27:11.308  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61033
+2023/04/05 18:27:11.308  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61034
+2023/04/05 18:27:11.309  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61034
+2023/04/05 18:27:11.366  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61030
+2023/04/05 18:27:11.371  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61031
+2023/04/05 18:27:11.371  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61032
+2023/04/05 18:27:11.371  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61033
+2023/04/05 18:27:11.371  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61034
+2023/04/05 18:27:11.804  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61035
+2023/04/05 18:27:11.805  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61035
+2023/04/05 18:27:11.820  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61036
+2023/04/05 18:27:11.821  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61037
+2023/04/05 18:27:11.821  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61038
+2023/04/05 18:27:11.822  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61039
+2023/04/05 18:27:11.822  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61036
+2023/04/05 18:27:11.823  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61037
+2023/04/05 18:27:11.824  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61038
+2023/04/05 18:27:11.824  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61039
+2023/04/05 18:27:11.824  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61040
+2023/04/05 18:27:11.824  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61040
+2023/04/05 18:27:11.914  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61035
+2023/04/05 18:27:11.914  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61036
+2023/04/05 18:27:11.914  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61037
+2023/04/05 18:27:11.914  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61038
+2023/04/05 18:27:11.914  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61039
+2023/04/05 18:27:11.914  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61040
+2023/04/05 18:27:12.334  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61041
+2023/04/05 18:27:12.334  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61042
+2023/04/05 18:27:12.335  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61043
+2023/04/05 18:27:12.335  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61044
+2023/04/05 18:27:12.336  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61041
+2023/04/05 18:27:12.336  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61042
+2023/04/05 18:27:12.337  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61043
+2023/04/05 18:27:12.337  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61044
+2023/04/05 18:27:12.337  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61045
+2023/04/05 18:27:12.337  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61045
+2023/04/05 18:27:12.349  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61041
+2023/04/05 18:27:12.349  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61042
+2023/04/05 18:27:12.349  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61043
+2023/04/05 18:27:12.349  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61044
+2023/04/05 18:27:12.349  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61045
+2023/04/05 18:27:12.846  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61046
+2023/04/05 18:27:12.846  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61047
+2023/04/05 18:27:12.847  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61048
+2023/04/05 18:27:12.847  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61049
+2023/04/05 18:27:12.848  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61046
+2023/04/05 18:27:12.849  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61047
+2023/04/05 18:27:12.849  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61048
+2023/04/05 18:27:12.849  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61049
+2023/04/05 18:27:12.849  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61050
+2023/04/05 18:27:12.850  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61050
+2023/04/05 18:27:12.891  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61046
+2023/04/05 18:27:12.891  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61047
+2023/04/05 18:27:12.891  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61048
+2023/04/05 18:27:12.891  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61049
+2023/04/05 18:27:12.891  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61050
+2023/04/05 18:27:13.344  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61051
+2023/04/05 18:27:13.344  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61051
+2023/04/05 18:27:13.359  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61053
+2023/04/05 18:27:13.360  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61054
+2023/04/05 18:27:13.361  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61055
+2023/04/05 18:27:13.361  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61056
+2023/04/05 18:27:13.362  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61053
+2023/04/05 18:27:13.362  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61054
+2023/04/05 18:27:13.363  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61055
+2023/04/05 18:27:13.363  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61056
+2023/04/05 18:27:13.363  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61057
+2023/04/05 18:27:13.363  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61057
+2023/04/05 18:27:13.436  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61051
+2023/04/05 18:27:13.436  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61053
+2023/04/05 18:27:13.436  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61054
+2023/04/05 18:27:13.436  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61055
+2023/04/05 18:27:13.437  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61056
+2023/04/05 18:27:13.437  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61057
+2023/04/05 18:27:13.853  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61058
+2023/04/05 18:27:13.854  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61060
+2023/04/05 18:27:13.854  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61058
+2023/04/05 18:27:13.855  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61060
+2023/04/05 18:27:13.900  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61061
+2023/04/05 18:27:13.900  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61058
+2023/04/05 18:27:13.901  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61060
+2023/04/05 18:27:13.902  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61061
+2023/04/05 18:27:13.902  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61062
+2023/04/05 18:27:13.903  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61062
+2023/04/05 18:27:13.904  INFO: PILOT_TCP_INT: Tcpip server accepted connection from (127.0.0.1):61063
+2023/04/05 18:27:13.904  INFO: PILOT_TCP_INT: Tcpip server lost read connection to (127.0.0.1):61063
+2023/04/05 18:27:14.005  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61061
+2023/04/05 18:27:14.005  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61062
+2023/04/05 18:27:14.005  INFO: PILOT_TCP_INT: Tcpip server lost write connection to (127.0.0.1):61063
+2023/04/05 18:32:11.049  INFO: Log File Closed : C:/COSMOS/Basic/outputs/logs/2023_04_05_18_26_51_tlm.bin
+2023/04/05 18:32:11.149  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2023/04/05 18:32:11.149  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2023/04/05 18:32:11.149  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2023/04/05 18:32:11.160  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2023/04/05 18:32:11.171  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2023/04/05 18:32:11.171  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2023/04/05 18:32:11.176  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2023/04/05 18:32:11.264  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2023/04/05 18:32:11.274  INFO: Killing thread for interface PILOT_TCP_INT
+2023/04/05 18:32:11.275  INFO: Clean disconnect from PILOT_TCP_INT (returned nil)
+2023/04/05 18:32:11.275  INFO: Connection Lost for PILOT_TCP_INT
+2023/04/05 18:32:11.367  INFO: Stopped packet reading for PILOT_TCP_INT
+2023/04/05 18:32:11.367  INFO: Disconnected from interface PILOT_TCP_INT
